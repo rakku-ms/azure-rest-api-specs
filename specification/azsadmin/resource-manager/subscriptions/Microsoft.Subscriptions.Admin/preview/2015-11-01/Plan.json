@@ -281,12 +281,7 @@
           "x-ms-client-flatten": true,
           "$ref": "#/definitions/PlanProperties"
         }
-      },
-      "allOf": [
-        {
-          "$ref": "Subscriptions.json#/definitions/Resource"
-        }
-      ]
+      }
     },
     "PlanProperties": {
       "description": "Properties of a plan.",
